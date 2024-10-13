@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Patrick+Hand&family=Poppins&family=Ubuntu&display=swap");
+:root {
+  --maincolor: #252734;
+  --secondcolor: #333646;
+  --ascentcolor: #ff9100;
+  --ubuntu: "Ubuntu", sans-serif;
+  --patrick: "Patrick Hand", cursive;
+  --poppins: "Poppins", sans-serif;
+  --nunito: "Nunito", sans-serif;
+}
+
+a.nav-judul {
+  font-family: var(--nunito);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+span.satu {
+  color: crimson;
+  font-style: italic;
+}
+
+.hero {
+  background-color: #fafafa;
+}
+
+.bg-nav {
+  background-color: #fafafa;
+}
+
+.nav-link {
+  font-family: var(--poppins);
+  font-size: 1.15rem;
+}
+
+.main-judul {
+  font-family: var(--nunito);
+  font-weight: 700;
+  font-size: 3.33rem;
+}
+
+.main-judul2 {
+  font-family: var(--poppins);
+  font-size: 1.15em;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 400px) {
+  .main-judul {
+    font-size: 2rem;
+  }
+  section {
+    scroll-margin-top: 10px;
+  }
+}
+
+section {
+  scroll-margin-top: 50px;
+}
